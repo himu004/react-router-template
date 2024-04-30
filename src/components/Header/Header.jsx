@@ -33,7 +33,7 @@ const Header = () => {
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
                 <NavLink
-                  to="/messages"
+                  to="/"
                   className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""
                   }
@@ -43,7 +43,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="/messages"
+                  to="/about"
                   className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""
                   }
@@ -53,7 +53,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="/messages"
+                  to="/contact"
                   className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "active" : ""
                   }
