@@ -32,8 +32,9 @@ import Github from "../Github/Github";
             element: <User />
         },
         {
+            
             path: "/github",
-            element: <Github />
+            element: <Github />,
         },
       ]
     },
