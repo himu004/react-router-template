@@ -38,9 +38,28 @@ const Header = () => {
                     isPending ? "pending" : isActive ? "active" : ""
                   }
                 >
-                  Messages
+                  Home
                 </NavLink>
-                ;
+              </li>
+              <li>
+                <NavLink
+                  to="/messages"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
+                  }
+                >
+                  About us
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/messages"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : ""
+                  }
+                >
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </div>
