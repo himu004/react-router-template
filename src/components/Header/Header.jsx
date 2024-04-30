@@ -35,7 +35,7 @@ const Header = () => {
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
+                    isPending ? "pending" : isActive ? "text-orange-700" : ""
                   }
                 >
                   Home
@@ -45,7 +45,7 @@ const Header = () => {
                 <NavLink
                   to="/about"
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
+                    isPending ? "pending" : isActive ? "text-orange-700" : ""
                   }
                 >
                   About us
@@ -55,10 +55,20 @@ const Header = () => {
                 <NavLink
                   to="/contact"
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
+                    isPending ? "pending" : isActive ? "text-orange-700" : ""
                   }
                 >
                   Contact
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/github"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "text-orange-700" : ""
+                  }
+                >
+                  Github
                 </NavLink>
               </li>
             </ul>
